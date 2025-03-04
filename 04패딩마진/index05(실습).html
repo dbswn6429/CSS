@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .gnb {
+            text-align: center;
+            background-color: black;
+        }
+
+        .gnb > ul > li {
+            display: inline;
+        }
+        .gnb > ul > li > a {
+           
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            box-sizing: border-box;
+            height: 40px;
+        }
+
+        .gnb > ul > li > a:hover {
+            border-bottom: 3px solid #fff;
+        }
+
+        .wrap {
+            width: 1080px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        .wrap>.box{
+            border: 1px solid #777;
+            padding: 30px;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="gnb">
+            <ul>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+            </ul>
+    
+        </nav>
+    </header>
+    <article> <!-- background와 이미지가 들어가면된다다 -->
+        <img src="coupang.jpg" alt="이미지">
+    </article>
+    <section>
+        <div class="wrap">
+            <h5>오늘의 발견</h5>
+            <div class="box">
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            </div>
+        </div>
+ 
+       
+    </section>
+</body>
+</html>
