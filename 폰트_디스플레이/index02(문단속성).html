@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .a {
+            text-align: center;
+            letter-spacing: 10px; /* 자간 - 음수값은 더 좁아진다! */
+            text-decoration: underline; /* 글자에 밑줄 그어줌 */
+        }
+
+        /* .b{
+            /* 기준이 될 태그에 지정합니다 */
+            /* vertical-align: bottom; */
+        } */
+        
+        .b img {
+            height: 150px;
+            width: 200px;
+            vertical-align: middle;
+        }
+
+        .c{
+            border: 1px solid black;
+            height: 100px;
+            line-height: 100px; /* 높이와 줄간격을 동일하게 맞추면 수직정렬됩니다 */
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <p class="a">hello!</p>
+
+    <p class="b">
+        <img src="img/taeha.jpg" alt="이미지">
+        태하야 넌 너무 귀여워  
+    </p>
+
+    <p class="c">
+        hello
+    </p>
+</body>
+</html>

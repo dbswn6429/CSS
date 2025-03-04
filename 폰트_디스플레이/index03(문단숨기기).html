@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            border: 1px solid #777;
+            width: 300px;
+            height: 100px;
+            /* overflow - 컨텐츠 영역을 넘어갈 때 어떻게 처리할 꺼냐? 
+            visible - 보이게함 (기본값)
+            scroll - 스크롤 무조건 만듬
+            auto - 내용이 넘칠때만 스크롤 만들고, 없으면 안만들고
+            hidden - 넘치면 숨김
+            */
+            overflow: hidden;
+        }
+
+        div {
+            border: 1px solid #777;
+            width: 300px;
+            height: 100px;
+            /* 가로스크롤 */
+            overflow: auto;
+            white-space: nowrap; /* 줄바꿈하지 않음 */
+        }
+    </style>
+</head>
+<body>
+    
+    <!--  블럭요소의 박스크기를 지정할 땐 height, width 속성을 사용함  -->
+    <P>
+        볼을 잡은 상대 선수에게 90분 내내 (또는 대부분의 시간 동안) 
+        근처에 있는 선수들이 다 달려나가고 볼을 뺏으면 바로 달리지 않고 
+        볼을 지키고 순환시키면서 상대가 볼을 따라다니게 만들고 
+        어느 순간 생기는 공간을 활용하는 축구.
+        그게 토탈풋볼이었습니다.
+        dfsjfs;lfs;f;sdf;skf;ssfsdfsa
+        sfaf;da;;a;afk
+    </P>
+
+    <div>
+        볼을 잡은 상대 선수에게 90분 내내 (또는 대부분의 시간 동안) 
+        근처에 있는 선수들이 다 달려나가고 볼을 뺏으면 바로 달리지 않고 
+        볼을 지키고 순환시키면서 상대가 볼을 따라다니게 만들고 
+        어느 순간 생기는 공간을 활용하는 축구.
+        그게 토탈풋볼이었습니다.
+        dfsjfs;lfs;f;sdf;skf;ssfsdfsa
+        sfaf;da;;a;afk
+
+    </div>
+</body>
+</html>
